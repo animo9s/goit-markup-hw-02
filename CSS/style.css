@@ -1,0 +1,111 @@
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+.logo-first-char {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-last-char {
+    color: #FFFFFF;
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.header-nav-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-list-link {
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    Line-height: 16px;
+    color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #2196F3;
+}
+.buttons-list-item {
+    background: #F5F4FA;
+    border-radius: 4px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    text-align: center;
+    
+    color: #212121;
+}
+
+.buttons-list-item:hover,
+.buttons-list-item:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+    }
+
+.Project-head {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    }
+ 
+    
+.project-description {
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+.adress-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    }
+
+.adress-list {font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+     font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
+
+.footer {
+    background: #2F303A;
+  }   
