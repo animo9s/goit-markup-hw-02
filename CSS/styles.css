@@ -1,54 +1,82 @@
 .list {list-style: none;}
-.link {text-decoration: none;}
+.link {text-decoration: none;
+color: inherit;
+font-style: normal;
+}
 
 :root {
     --logo-color: #000000;
-    --logo-first-char-color: #2196F3;
-    --logo-last-char-color: #ffffff;
+    --light-blue-color-theme: #2196F3;
+    --white-color-theme: #ffffff;
     --text-color: #212121;
-    --accent-color: #0000ff;
-    --main-section-hero-color: #ffffff;
+    --dark-blue-color: #0000ff;
     --main-section-hero-background-color: #2F303A;
-    --buttons-order-background-color:#2196F3;
-    --buttons-order-background-color-in-focus:#188CE8;
-    --buttons-background-color:#F5F4FA;
-    --buttons-color-in-focus:#FFF;
-    --buttons-background-color-in-focus:#2196f3;
-    --buttons-order-color:#F5F4FA;
-    --our-team-backgraud-color: #f5f4fa;
+    --light-blue-color-theme-in-focus:#188CE8;
+    --light-gray-color-theme:#f4faf7;
     --paragraph-desc-color: #757575;
-    --footer-adress-color: #FFFFFF;
     --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
     }
 
 body {
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     font-style: normal;
     color: var(--text-color);
     font-weight: 400;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
+footer {
+    background: var(--main-section-hero-background-color);
+    }
+
+
+.logo-link {
+    color: var(--light-blue-color-theme);
+    Font-family: Raleway, sans-serif;
+    Font-size: 26px;
+    Line-height: 1.2;
 }
 
- .logo {
+.logo-black {
+    color: var(--logo-color);
+}
+
+
+.logo-white {
+    color: var(--light-blue-color-theme);
+}
+
+.header-nav-list {
+    color: var(--logo-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.current {
+    color: var(--light-blue-color-theme);
+}
+
+.logo-list {
     color: var(--logo-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    }
+}
 
-.logo-first-char {
-        color: var(--logo-first-char-color);
-    }
+.logo-list {
+    color: var(--light-blue-color-theme);
+}
+    
+.logo-black {
+    color: var(--logo-color);
+}
 
-    .logo-last-char { 
-        color: var(--logo-last-char-color);
-    }
+.logo-white { 
+    color: var(--white-color-theme);
+}
 
    
 .header-nav-item {
@@ -63,124 +91,121 @@ body {
 }
 
 
-.main-section {
+.hero {
     background: var(--main-section-hero-background-color);
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px; 
+   
 }
-.main-section-hero {
-    color: var(--main-section-hero-color);
+.hero-title {
+    color: var(--white-color-theme);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    Letter-spacing: 0.06em;
+    text-transform: uppercase;
     
 }
 .buttons-order {
-    background: var(--buttons-order-background-color);
-    color: var(--buttons-order-color);
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    font-family:inherit;
+    background: var(--light-blue-color-theme);
+    color: var(--light-gray-color-theme);
     cursor: pointer;   
+    Font-size: 16px;
+    Line-height: 1.88;
+    Letter-spacing: 0.06em;
 }
 
 .buttons-order:hover,
 .buttons-order:focus {
-background: var(--buttons-order-background-color-in-focus);
+    background: var(--light-blue-color-theme-in-focus);
 }
 
 .buttons-list-item {
-background: var(--buttons-background-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-border-radius: 4px;
-border: 1px solid black;
-width: 128px;
-height: 38px;
-cursor: pointer;
+    font-family:inherit;
+    background: var(--light-gray-color-theme);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .buttons-list-item:hover,
 .buttons-list-item:focus
  {
-background: var(--buttons-background-color-in-focus);
-color: var(--buttons-color-in-focus);
+    background: var(--light-blue-color-theme);
+    color: var(--white-color-theme);
 }
 
-.about-us-head {
-    font-weight: 700;
-    Font-size: 14px;
-    Line-height: 1.14;
+.about-item-title {
+    
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color);
+    text-transform: uppercase;
 }
 
-.about-us-desc {
-    Font-size: 14px;
-    Line-height: 1.7;
+.about-item-desc {
+    font-size: 14px;
+    line-height: 1.7;
     color:var(--paragraph-desc-color);
 }
 
-.what-we-do {
-    font-weight: 700;
-    Font-size: 36px;
-    Line-height: 1.17;
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--text-color);
 }
 
-.our-team {
-background: var(--our-team-backgraud-color);
+.team {
+    background: var(--light-gray-color-theme);
 }
 
-.our-team-head {
-font-weight: 700;
-Font-size: 36px;
-Line-height: 1.17;
-}
 
-.our-team-list-item {
+.team-item {
     background: #FFFFFF;
 }
 
-.our-team-collab {
-    font-weight: 700;
-    Font-size: 16px;
-    Line-height: 19px;
-}
-.our-team-position {
+.team-item-title,
+.team-item-position {
+    
+    font-size: 16px;
+    line-height: 1.19;
 
 }
 
-.Project-head {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+.team-item-title {
+    font-weight: 500;
+    color: var(--text-color);
 }
 
-.project-description {
-color: #757575;
-font-size: 16px;
-line-height: 1.8;
+.project-item-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--text-color);
+}
+
+.project-item-description {
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 .adress-link {
-font-style: normal;
+    font-style: normal;
 }
 
-footer {background: var(--main-section-hero-background-color);
+
+.address-link{
+    color: var(--footer-mail-tel-color);
 }
 
-.footer-adress {
-color: var(--footer-adress-color);
+
+.address-link [target="_blank"] {
+    color: var(--white-color-theme);
 }
 
-.footer-mail {
-color: var(--footer-mail-tel-color);
-}
-
-.footer-tel {
-color: var(--footer-mail-tel-color);   
+.address-link:hover,
+.address-link:focus {
+    color: var(--light-blue-color-theme);
 }
